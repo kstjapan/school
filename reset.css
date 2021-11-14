@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/* ------------ スタイルの初期化 -全称セレクタ（*） ------------ */
+*{
+ margin:0;
+ padding:0;
+ zoom:1; /* IE独自のZoom機能（拡大）をリセットさせレイアウト崩れを無くす */
+}
+/* ------------ 一般的なタグの基本設定 ------------ */
+body {
+	font-size: 100.01%; /* どのブラウザ（古いブラウザ）でもフォントサイズを100%に設定させる */
+	/*text-align: center;	IE6でmargin左右autoが効かない為、text-align:centerで中央寄せにさせる */
+	font-family: "Malgun Gothic", "Microsoft NeoGothic",  "AppleSDGothicNeo", "Dotum", "Meiryo UI", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+	color: #333;	/* サイト全体の文字の色を#333（濃いグレー）に設定 */
+}
+/* ------------ スタイルの初期化 -リスト関連 ------------ */
+ul,ol,dl{
+  list-style:none;	/* リスト23のマークを消す */
+}
+#wraper {
+}
+
+/* ------------  クリアフィックス ------------ */
+.clearfix:after {  
+    height: 0;  
+    visibility: hidden;  
+    content: ".";  
+    display: block;  
+    clear: both;  
+}

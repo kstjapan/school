@@ -1,0 +1,47 @@
+@charset "utf-8";
+#main{
+	background-color: #fff;
+}
+
+#main p{
+margin:0 0 -0.4em 0;
+}
+#main ul {
+	border-bottom: none;
+}
+.kyoshitsu li {
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-indent: -9999px;
+}
+.hidari {
+	background-image: url(images/kyoshitsu_photo3.jpg);
+}
+.mannaka {
+	background-image: url(images/kyoshitsu_photo1.jpg);
+}
+.migi {
+	background-image: url(images/kyoshitsu_photo2.jpg);
+}
+footer {
+	text-indent: 0.2em;
+	background-image: url(images/byg_m.jpg);
+	height:210px;
+	line-height: 1.5em;
+	padding-top: 2em;
+}
+.qcode{
+	display: flex;
+	justify-content:space-around;
+	text-align: center;
+}
+figure{
+	text-align:	left;
+}
+figure figcaption{
+	margin-top:0em;
+	text-align: center;
+}
+.adress{
+	line-height: 2.1em;
+	}
