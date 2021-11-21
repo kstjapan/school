@@ -21,10 +21,10 @@ ul,ol,dl{
 }
 
 /* ------------  クリアフィックス ------------ */
-.clearfix:after {  
-    height: 0;  
-    visibility: hidden;  
-    content: ".";  
-    display: block;  
-    clear: both;  
+.clearfix:after {
+    height: 0;
+    visibility: hidden;
+    content: ".";
+    display: block;
+    clear: both;
 }
